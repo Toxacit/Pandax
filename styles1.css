@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("background-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*черная хуета начальная вроде как*/
+header {
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    height: 10px
+}
+
+.gmail {
+    position: relative;
+    right: -76%;
+    width: 5px;
+    size: 1px;
+    top: 25px;
+}
+/*белая закругленная хуета там где навигация вся*/
+.white-bar {
+  background-color: #fff;
+  height: 58px;
+  border-radius: 100px;
+    width: 90%;
+    border: 1px solid #000; /* Adjust the border width and color */
+  box-shadow: 0 0 4px #000; /* Adjust the shadow values */
+  margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+.menu {
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 5px;
+    text-decoration: none;
+    font-family: "Roboto", Arial, sans-serif;
+    display: inline-block;
+}
+ .back-bar {
+      background-color: #fff;
+    height: 20px;
+    border-radius: 100px;
+    width: 90%;
+    border: 1px solid #000; /* Adjust the border width and color */
+    box-shadow: 0 0 4px #000; /* Adjust the shadow values */
+    position: absolute;
+    
+
+ }
+.logo img {
+    width: 40px;
+    position: relative;
+    bottom: -55px;
+    right: -230px;
+}
+.name img {
+    width: 110px;
+    position: relative;
+    bottom: 10px;
+    right: -120px;
+    top: -60px;
+}
+.about {
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 5px;
+    text-decoration: none;
+    font-family: "Roboto", Arial, sans-serif;
+    display: inline-block;
+
+ }
+.rules {
+  list-style-type: none;
+  font-family: "Roboto", Arial, sans-serif;
+  min-width:2000px;
+}
+
+}
+.back-main img {
+    width: 10px;
+    position: relative;
+    bottom: 100px;
+    right: -400px;
+    top: -180px;
+}
+
+
+
+
+nav ul {
+     list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  position: absolute;
+  top: 260%;
+  right: 550px;
+  transform: translateY(-150%);
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 18px;
+}
+
+/*регистрация вход фулл*/
+.user-account {
+    list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  position: absolute;
+  top: 270%;
+  right: 220px;
+  transform: translateY(-160%);
+}
+.user-account a {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 19px;
+/*онлм регисмтрация*/
+}
+.user-account a.registration-button {
+    background-color:#2E8B57; /* Add the desired background color */
+    color: #fff; /* Set the text color to black */
+    padding: 1px 10px; /* Add padding to increase the size of the button */
+    border-radius: 10px; /* Add border-radius to round the corners */
+    bottom:-10px;
+
+
+}
+.user-account a.registration-button:hover {
+    background-color: #006400; /* Change the background color to dark green when hovering */
+    color: #fff; /* Set the text color to black */
+
+/*хуета меняет отступ нижней полоски где защищ права*/
+main {
+    padding: 100px;
+    right: 50px;
+}
+/*ХУЕТА ДЕЛАЮщая больше строку нижнюю со всякой хуетой*/
+footer {
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+}
+@media (min-width: 767px){
+ h1 {
+  font-size: calc(24px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+ }
+}
